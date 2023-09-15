@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    min-height: 400vh;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    background-image: linear-gradient(to bottom left, #121212,#141414,#161616, #181818, #202020);
+    background-image: linear-gradient(to bottom left, #ff9a9e , #fad0c4);
+    background-image: linear-gradient(to bottom left, #1a1a1a , #000000);
+    background: url('./../Assets/images/BG_PENTAGON.avif');
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // background-image: linear-gradient(to bottom right, #09203f,#000000);
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    color: white;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .hex3 {
+    background: #0e0e18;
+    -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  }
+  .hex4 {
+    background: #0e0e18;
+    -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  }
+  
+
+#ghost {
+    position: absolute;
+    top: 250px;
+    bottom: auto;
+    left: 180px;
+    right: auto;
+    transition: 1.5s all ease-in-out;
+}
+
+#navbar {
+    margin-top: 25px;
+    width: 70vw;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    // box-shadow: 0px 1px 4px 2px #000;
+    background: rgba(26, 23, 57, 0.166);
+    backdrop-filter: saturate(180%) blur(10px);
+
+    border: 0.3px solid rgba(26, 21, 79, 0.555);
+    position: static;
+    // filter: blur(10px)
+    
+}
+
+#navbar a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .moveRightGhost {
+//     transition: all 3s linear;
+//     animation-name: move_to_right;
+//     animation-duration: 2s;
+// }
+
+
+// @keyframes move_to_right {
+
+//     0% {
+//         // background-color: red;
+//         left: 30px;
+//         right: auto;
+//     }
+//     50%{
+//         left: auto;
+//         right: auto;
+//     }
+//     100% {
+//         // background-color: orange;
+//         left: auto;
+//         right: 30px;
+//     }
+
+// }

@@ -1,0 +1,6 @@
+HEX : 
+left top pink : A11A76
+right bottom color : 0FE6EB
+
+
+Ghost Original color :  FF725E
