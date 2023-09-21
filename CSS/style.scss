@@ -9,10 +9,17 @@ body {
     &::-webkit-scrollbar {
         display: none;
     }
-    background-image: linear-gradient(to bottom left, #121212,#141414,#161616, #181818, #202020);
-    background-image: linear-gradient(to bottom left, #ff9a9e , #fad0c4);
-    background-image: linear-gradient(to bottom left, #1a1a1a , #000000);
-    background: url('./../Assets/images/BG_PENTAGON.avif');
+    // background-image: linear-gradient(to bottom left, #121212,#141414,#161616, #181818, #202020);
+    // background-image: linear-gradient(to bottom left, #ff9a9e , #fad0c4);
+    // background-image: linear-gradient(to bottom left, #3c4372 , #080808);
+    // background-image: linear-gradient(to bottom left, #0f1850 , #080808);
+    background-image: linear-gradient(to bottom left, #1f1f1f, #3f3f3f );
+    // background-image: linear-gradient(to bottom left, #473026, #3f3f3f );
+
+    // background-color: #1f1f1f;
+
+    // background-image: linear-gradient(to bottom left, #1a1a1a , #000000);
+    // background: url('./../Assets/images/BG_PENTAGON.avif');
     // background-repeat: no-repeat;
     // background-size: contain;
     // background-image: linear-gradient(to bottom right, #09203f,#000000);
@@ -43,12 +50,13 @@ div {
     position: absolute;
     top: 250px;
     bottom: auto;
-    left: 180px;
+    left: auto;
     right: auto;
     transition: 1.5s all ease-in-out;
 }
 
-#navbar {
+#navbar, .homeMainLeft .TagLeft{
+// #navbar {
     margin-top: 25px;
     width: 70vw;
     height: 25px;
@@ -73,6 +81,22 @@ div {
     color: white;
     text-align: center;
     text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+
+    &:last-child {
+        background-color: #1f1f1f;
+    }
+
+    &:last-child:hover {
+        background-color: #0e0e18;
+    }
+
+    &:hover {
+        background-color: #1f1f1f;
+        border: 1px solid whitesmoke;        
+    }
+
 }
 
 
